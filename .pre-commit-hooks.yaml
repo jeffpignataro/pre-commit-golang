@@ -37,6 +37,6 @@
 - id: bazel-gazelle
   name: "bazel gazelle"
   entry: run-bazel-gazelle.sh
-  files: '\.(go|build)$'
+  files: '\.(go|bazel)$'
   language: "script"
   description: "Runs Bazel Gazelle update-repos and build file generation functions"
